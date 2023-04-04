@@ -6,7 +6,20 @@ using System.Threading.Tasks;
 
 namespace CursoCSharp.Fundamentos
 {
-    internal class Class1
+        class LendoDados
     {
+        public static void Executar ()
+        {
+            Console.WriteLine("Qual é o seu nome? ");
+            string nome = Console.ReadLine();
+
+            Console.WriteLine("Qual é a sua idade? ");
+            int idade = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Qual é o seu salário? ");
+            
+
+
+        }
     }
 }
