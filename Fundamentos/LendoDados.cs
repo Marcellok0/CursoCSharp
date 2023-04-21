@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Globalization;
 
 namespace CursoCSharp.Fundamentos
 {
@@ -17,7 +14,11 @@ namespace CursoCSharp.Fundamentos
             int idade = int.Parse(Console.ReadLine());
 
             Console.WriteLine("Qual é o seu salário? ");
-            
+         
+            double salario = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            // CultureInfo.InvariantCulture vai funcionar em qualquer lugar
+            Console.WriteLine($"{nome} {idade}  R${salario}");
+
 
 
         }
