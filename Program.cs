@@ -28,7 +28,6 @@ namespace CursoCSharp {
                 {"Operadores Ternários - Fundamentos ",  OperadorTernario.Executar},
                  
                 // Estruturas de Controle
-               
                 {"Estruturas If - Estruturas de Controle ",  EstruturaIf.Executar},
                 {"Estruturas If/Else - Estruturas de Controle ",  EstruturaIfElse.Executar},
                 {"Estruturas If/Else/If - Estruturas de Controle ",  EstruturaIfElseIf.Executar},
@@ -42,6 +41,8 @@ namespace CursoCSharp {
 
                 // Classes e Metodos
                 {"Membros - Classes e Metodos ",  Membros.Executar},
+                {"Construtores - Classes e Metodos ",  Construtores.Executar},
+                {"Metodos Com Retorno - Classes e Metodos ",  MetodosComRetorno.Executar},
 
 
             });
