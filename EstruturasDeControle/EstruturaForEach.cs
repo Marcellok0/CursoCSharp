@@ -4,21 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CursoCSharp.EstruturasDeControle
-{
-    internal class EstruturaForEach
-    {
-        public static void Executar()
-        {
+namespace CursoCSharp.EstruturasDeControle {
+    internal class EstruturaForEach {
+        public static void Executar() {
             var palavra = "parangaricutirimirruaro!";
-            foreach (var letra in palavra)
-            {
+            foreach (var letra in palavra) {
                 Console.WriteLine(letra);
             }
             var alunos = new string[] { "Ana", "Bia", "Carlos" };
 
-            foreach (string aluno in alunos)
-            {
+            foreach (string aluno in alunos) {
                 Console.WriteLine(aluno);
             }
         }

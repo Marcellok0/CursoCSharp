@@ -4,17 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CursoCSharp.EstruturasDeControle
-{
-    internal class EstruturaSwitch
-    {
-        public static void Executar()
-        {
+namespace CursoCSharp.EstruturasDeControle {
+    internal class EstruturaSwitch {
+        public static void Executar() {
             Console.WriteLine(" Avalie o meu atendimento com uma nota de 1 a 5: ");
             int.TryParse(Console.ReadLine(), out int nota);
 
-            switch (nota)
-            {
+            switch (nota) {
                 case 0:
                     Console.WriteLine("Péssimo");
                     break;

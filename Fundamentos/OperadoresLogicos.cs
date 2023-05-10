@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CursoCSharp.Fundamentos
-{
-    internal class OperadoresLogicos
-    {
-        public static void Executar()
-        {
+namespace CursoCSharp.Fundamentos {
+    internal class OperadoresLogicos {
+        public static void Executar() {
             var executouTrabalho1 = true;
             var executouTrabalho2 = false;
 

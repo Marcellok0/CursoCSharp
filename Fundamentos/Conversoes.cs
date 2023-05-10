@@ -4,19 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CursoCSharp.Fundamentos
-{
-    internal class Conversoes
-    {
-        public static void Executar()
-        {//Conversão implícita
+namespace CursoCSharp.Fundamentos {
+    internal class Conversoes {
+        public static void Executar() {//Conversão implícita
             int inteiro = 10;
-            double  quebrado = inteiro;
+            double quebrado = inteiro;
             Console.WriteLine(quebrado);
 
             //Conversão numérica explicita usando o cache
             double nota = 9.7;
-            int notaTruncada = (int) nota;
+            int notaTruncada = (int)nota;
             Console.WriteLine("Nota truncada: {0}", notaTruncada);
 
 
@@ -35,7 +32,7 @@ namespace CursoCSharp.Fundamentos
             string palavra = Console.ReadLine();
             int numero1;
             int.TryParse(palavra, out numero1); //tenta fazer o parse se nao conseguir retorna o valor ZERO (0)
-            Console.WriteLine("Resultado: {0}", numero1 );
+            Console.WriteLine("Resultado: {0}", numero1);
 
 
             //versão otimizada   +

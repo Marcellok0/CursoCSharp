@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CursoCSharp.Fundamentos
-{
-    internal class OperadorDeAtribuicao
-    {
-        public static void Executar()
-        {
+namespace CursoCSharp.Fundamentos {
+    internal class OperadorDeAtribuicao {
+        public static void Executar() {
             var num1 = 3;
             num1 = 7; // neste caso houve a substituição do valor anterior, ou seja 3 passou a ser 7.
             num1 += 10;  //num1 = num1 + 10 (neste exemplo a variável acrescenta + 10 ficando assim: 17 ).

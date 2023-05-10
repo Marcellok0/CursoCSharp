@@ -5,12 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CursoCSharp.Fundamentos
-{
-    internal class VariaveisEConstantes
-    {
-        public static void Executar()
-        {
+namespace CursoCSharp.Fundamentos {
+    internal class VariaveisEConstantes {
+        public static void Executar() {
             // area da circunferencia
             double raio = 4.5;
             const double PI = 3.14;
@@ -20,7 +17,7 @@ namespace CursoCSharp.Fundamentos
 
             double area = PI * raio * raio;
             Console.WriteLine(area);
-            Console.WriteLine("Área é: "  +  area );
+            Console.WriteLine("Área é: " + area);
 
             // Tipos internos
 
@@ -34,7 +31,7 @@ namespace CursoCSharp.Fundamentos
             Console.WriteLine("Saldo de Gols " + saldoDeGols);
 
             short salario = short.MinValue;
-            Console.WriteLine("Salário " + salario );
+            Console.WriteLine("Salário " + salario);
 
             int menorValorInt = int.MinValue; // Mais usados inteiros!
             Console.WriteLine("Menor int " + menorValorInt);

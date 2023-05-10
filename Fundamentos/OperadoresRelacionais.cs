@@ -4,11 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CursoCSharp.Fundamentos
-{
-    internal class OperadoresRelacionais
-    {public static void Executar()
-        {
+namespace CursoCSharp.Fundamentos {
+    internal class OperadoresRelacionais {
+        public static void Executar() {
             //double nota = 6.0;
             Console.Write("Digite a nota: ");
             double.TryParse(Console.ReadLine(), out double nota);

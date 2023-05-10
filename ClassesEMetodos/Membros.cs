@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CursoCSharp.ClassesEMetodos
-{
-    internal class Membros
-    {
-        public static void Executar()
-        {
+namespace CursoCSharp.ClassesEMetodos {
+    internal class Membros {
+        public static void Executar() {
             Pessoa sicrano = new Pessoa();
             sicrano.Nome = "Marcello";
             sicrano.Idade = 35;

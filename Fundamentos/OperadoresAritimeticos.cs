@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CursoCSharp.Fundamentos
-{
-    internal class OperadoresAritimeticos
-    {
-        public static void Executar()
-        {
+namespace CursoCSharp.Fundamentos {
+    internal class OperadoresAritimeticos {
+        public static void Executar() {
             //preço desconto
             var preco = 1000.0;
             var imposto = 355;

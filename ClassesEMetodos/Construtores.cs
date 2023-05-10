@@ -4,8 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CursoCSharp.ClassesEMetodos
-{
+namespace CursoCSharp.ClassesEMetodos {
     class Carro // **** CONSTRUTOR PADRÃO **** ( ñ recebe parametro)
     {
         public string Modelo; // Atributo do objeto
@@ -18,15 +17,12 @@ namespace CursoCSharp.ClassesEMetodos
             Fabricante = fabricante;
             Ano = ano;
         }
-        public Carro()
-        {
+        public Carro() {
 
         }
     }
-    internal class Construtores
-    {
-        public static void Executar()
-        {
+    internal class Construtores {
+        public static void Executar() {
             var carro1 = new Carro();
             {
                 carro1.Fabricante = "BMW";
@@ -37,8 +33,7 @@ namespace CursoCSharp.ClassesEMetodos
                 var carro2 = new Carro("Ka", "Ford", 2018);
                 Console.WriteLine($"{carro2.Fabricante} {carro2.Modelo} {carro2.Ano}");
 
-                var carro3 = new Carro()
-                {
+                var carro3 = new Carro() {
                     Fabricante = "Fiat",
                     Modelo = "Uno",
                     Ano = 2019
