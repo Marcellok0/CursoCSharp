@@ -5,8 +5,10 @@ using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturasDeControle;
 using CursoCSharp.ClassesEMetodos;
 using CursoCSharp.Colecoes;
+using CursoCSharp.OO;
 
-namespace CursoCSharp {
+namespace CursoCSharp
+{
     class Program {
         static void Main(string[] args) {
             var central = new CentralDeExercicios(new Dictionary<string, Action>() {
@@ -60,7 +62,6 @@ namespace CursoCSharp {
                 {"Parêmetro Padrão - Classes e Metodos ", ParametroPadrao.Executar},
                 
                 //  Coleções
-                
                 {"Array - Coleções ", Colecoes.Array.Executar},
                 {"List - Coleções ", ColecoesList.Executar},
                 {"Array List - Coleções ", ColecoesArrayList.Executar},
@@ -68,6 +69,13 @@ namespace CursoCSharp {
                 {"Queue - Coleções ", ColecoesQueue.Executar},
                 {"Igualdade - Coleções ", Igualdade.Executar},
                 {"Dictionary- Coleções ", ColecoesDictionary.Executar},
+                                
+                //  OO
+                {"Heranca - OO ", Heranca.Executar},
+                {"Construtor This - OO ", ConstrutorThis.Executar},
+
+
+
 
 
             });
